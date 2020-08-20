@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul li{
+    font-size: small;
+    margin-right: 12px;
+}
+#divider{
+    width: 83%;
+}
+
+#sign-in{
+    color: white;
+    font-weight: bold;
+    background: #4285f4;
+    cursor: pointer;
+    padding: 6px 10px 6px 10px;
+}
+#sign-in:hover{
+    background: #1b71fb;
+}
+ul li a{
+    text-decoration: none;
+    color: #525050;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.country-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 4vh;
+    background-color: #f5f3ed;
+}
+.country-footer a{
+    font-size: 14px;
+}
+.general-footer{
+    height: 4vh;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    background-color: #f5f3ed;
+}
+.general-footer a{
+    font-size: 14px;
+}
+#footer-divider{
+    width: 75vw;
+}
+
+.main-wrapper{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bg{
+    width: 30vw;
+    height: 2.25vw;
+    border: 1px solid #e4e7ed;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.search-bg:hover{
+    box-shadow: 1px 1px 4px #dedfe0;
+}
+#searchbox{
+    outline-style: none;
+    border: 0;
+    width: 26vw;
+    height: 1.3vw;
+}
+input[type=text]{
+    font-size: 1vw;
+}
+.buttons-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-wrapper button{
+    cursor: pointer;
+    margin: 0.3vw;
+    background-color: #eeedec;
+    border: 1px solid #e4e7ed;
+    padding: 0.4vw 1.3vw 0.4vw 1.3vw;
+    border-radius: 4px;
+    color: black;
+}
+.buttons-wrapper button:hover{
+    border: 1px solid rgb(194, 194, 194);
+}
+
+#three-by-three{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quad{
+    margin: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: #525050;
+}
