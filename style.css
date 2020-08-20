@@ -114,6 +114,9 @@ input[type=text]{
     color: blue;
     cursor: pointer;
 }
+#lang:hover{
+    text-decoration: underline;
+}
 
 footer{
     margin: 0;
