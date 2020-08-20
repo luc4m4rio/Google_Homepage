@@ -70,12 +70,12 @@ ul li a:hover{
 }
 .search-bg svg{
     fill: grey;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 #searchbox{
     outline-style: none;
     border: 0;
-    width: 26vw;
+    width: 520px;
     height: 20px;
 }
 input[type=text]{
